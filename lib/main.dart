@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/home.dart';
+import 'package:myapp/playground1.dart';
+import 'package:myapp/playground2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +20,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const HomePage(title: 'Flutter Demo Home Page'),
+      // home: const Playground1(),
+      // home: const Playground2(),
     );
   }
 }
